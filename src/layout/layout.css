@@ -1,0 +1,14 @@
+.layout-footer {
+  background-color: #ff00ff;
+}
+
+.content {
+  padding: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .content,
+  .layout-footer {
+    margin-left: 300px;
+  }
+}

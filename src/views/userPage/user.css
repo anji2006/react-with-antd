@@ -1,0 +1,24 @@
+.user .title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 26px;
+  color: blue;
+}
+.user .body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  color: black;
+}
+.user-box {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.user {
+  border: 2px solid lightblue;
+  width: 350px;
+  box-shadow: 4px 2px 17px 2px #0f0f0f;
+  padding: 10px;
+}
